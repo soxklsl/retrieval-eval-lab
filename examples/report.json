@@ -1,0 +1,170 @@
+[
+  {
+    "method": "overlap",
+    "k": 3,
+    "recall_at_k": 1.0,
+    "mrr_at_k": 1.0,
+    "queries": [
+      {
+        "id": "q1",
+        "retrieved": [
+          "backup"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0838
+      },
+      {
+        "id": "q2",
+        "retrieved": [
+          "memory",
+          "root"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0258
+      },
+      {
+        "id": "q3",
+        "retrieved": [
+          "proxy"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0215
+      },
+      {
+        "id": "q4",
+        "retrieved": [
+          "ci",
+          "backup"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0205
+      },
+      {
+        "id": "q5",
+        "retrieved": [
+          "rag"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0203
+      },
+      {
+        "id": "q6",
+        "retrieved": [
+          "root",
+          "memory"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0205
+      },
+      {
+        "id": "q7",
+        "retrieved": [
+          "tls"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0194
+      },
+      {
+        "id": "q8",
+        "retrieved": [
+          "rollback",
+          "ci"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0198
+      }
+    ]
+  },
+  {
+    "method": "bm25",
+    "k": 3,
+    "recall_at_k": 1.0,
+    "mrr_at_k": 1.0,
+    "queries": [
+      {
+        "id": "q1",
+        "retrieved": [
+          "backup"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0317
+      },
+      {
+        "id": "q2",
+        "retrieved": [
+          "memory",
+          "root"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0236
+      },
+      {
+        "id": "q3",
+        "retrieved": [
+          "proxy"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.022
+      },
+      {
+        "id": "q4",
+        "retrieved": [
+          "ci",
+          "backup"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0227
+      },
+      {
+        "id": "q5",
+        "retrieved": [
+          "rag"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0221
+      },
+      {
+        "id": "q6",
+        "retrieved": [
+          "root",
+          "memory"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0225
+      },
+      {
+        "id": "q7",
+        "retrieved": [
+          "tls"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0216
+      },
+      {
+        "id": "q8",
+        "retrieved": [
+          "rollback",
+          "ci"
+        ],
+        "recall": 1.0,
+        "reciprocal_rank": 1.0,
+        "latency_ms": 0.0226
+      }
+    ]
+  }
+]

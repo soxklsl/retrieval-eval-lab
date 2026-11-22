@@ -1,0 +1,94 @@
+{
+  "documents": [
+    {
+      "id": "backup",
+      "text": "Python backup snapshots use SHA256 content hashes and verify restore integrity."
+    },
+    {
+      "id": "proxy",
+      "text": "Nginx reverse proxy forwards HTTP requests to upstream application services."
+    },
+    {
+      "id": "memory",
+      "text": "Kubernetes memory requests limits prevent unbounded container resource usage."
+    },
+    {
+      "id": "root",
+      "text": "Kubernetes securityContext runAsNonRoot prevents root container execution."
+    },
+    {
+      "id": "ci",
+      "text": "GitHub Actions CI runs Python tests before deployment."
+    },
+    {
+      "id": "rag",
+      "text": "RAG retrieval evaluation measures recall and reciprocal rank with relevance judgments."
+    },
+    {
+      "id": "tls",
+      "text": "TLS certificates encrypt HTTPS traffic and require renewal."
+    },
+    {
+      "id": "rollback",
+      "text": "Deployment rollback restores a previous application release after failure."
+    }
+  ],
+  "queries": [
+    {
+      "id": "q1",
+      "text": "verify backup integrity",
+      "relevant": [
+        "backup"
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "container memory limits",
+      "relevant": [
+        "memory"
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "HTTP reverse proxy",
+      "relevant": [
+        "proxy"
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Python tests CI",
+      "relevant": [
+        "ci"
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "retrieval recall evaluation",
+      "relevant": [
+        "rag"
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "root container securityContext",
+      "relevant": [
+        "root"
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "HTTPS certificates renewal",
+      "relevant": [
+        "tls"
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "rollback previous deployment",
+      "relevant": [
+        "rollback"
+      ]
+    }
+  ]
+}
